@@ -1,3 +1,8 @@
+As you can see, I used create react app to bootstrap the project. Instructions for running it are below. It's an MVP form solution so while I did go ahead and add unit tests for selectors and util functions, here are a few things I'd do differently on a production project:  
+1) Unit/integration test the components themselves 
+2) Break out the form inputs into it's own reusable label/input component. As you'll see in the code, the form elements are all quite similar so it's pretty easy to imagine them instead as a component that accepts as props functions for change and blur, label/input name, and input specific values like the value itself and whether or not that input has been touched by the user.
+3) Leverage Sass for CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
