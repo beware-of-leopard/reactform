@@ -3,6 +3,8 @@ As you can see, I used create react app to bootstrap the project. Instructions f
 2) Break out the form inputs into it's own reusable label/input component. As you'll see in the code, the form elements are all quite similar so it's pretty easy to imagine them instead as a component that accepts as props functions for change and blur, label/input name, and input specific values like the value itself and whether or not that input has been touched by the user.
 3) Leverage Sass for CSS
 
+![alt text](https://i.imgur.com/h8tRKDR.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
